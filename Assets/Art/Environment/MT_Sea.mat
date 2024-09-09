@@ -70,6 +70,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _NormalText_reA:
+        m_Texture: {fileID: 2800000, guid: 72292bad8f6b2a745b53ff354d0e6221, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalText_reB:
+        m_Texture: {fileID: 2800000, guid: d3241ed7d0c7fdd48ae72709b28d25dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -106,6 +114,7 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
+    - _DepthDistance: 1.42
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -115,12 +124,14 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
-    - _NormalIntensity: 0.502
+    - _NormalIntensity: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _PeaksChaos: 1.4
+    - _PeaksChaosB: 6
     - _PeaksContrast: 2.67
     - _PeaksSize: 24.1
+    - _PeaksSizeB: 9
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
@@ -140,7 +151,8 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 0.31603768, g: 0.947599, b: 1, a: 1}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainColor: {r: 0.6650943, g: 0.8702288, b: 0.8867924, a: 1}
     - _PeaksColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
