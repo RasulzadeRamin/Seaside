@@ -3,22 +3,23 @@ This is a personal Unity project that features a seaside scene with a basic thir
 
 ## Features
 1. Third-Person Character Controller
-The character is controlled using Unity's new Input System.
-Basic movement (walking/running) and camera control are integrated using Unity's own Starter Assets.
-Interaction with objects such as doors and sitting is implemented.
-Imported animations for walking, sitting, and interacting with the environment.
+  - The character is controlled using Unity's new Input System.
+  - Basic movement (walking/running) and camera control are integrated using Unity's own Starter Assets.
+  - Interaction with objects such as doors and sitting is implemented.
+  - Imported animations for walking, sitting, and interacting with the environment.
 2. Interactive Elements
-Door Interaction: Doors can be opened and closed using keyboard interaction (E key). When the character exits the trigger zone, the door automatically closes.
-Sitting Interaction: The character can sit on specific objects. If the player attempts to sit in an invalid area, a UI prompt will notify them.
+  - Door Interaction: Doors can be opened and closed using keyboard interaction (E key). When the character exits the trigger zone, the door automatically closes.
+  - Sitting Interaction: The character can sit on specific objects. If the player attempts to sit in an invalid area, a UI prompt will notify them.
 3. Seaside Environment
-Custom water shader created using Unity's Shader Graph for dynamic and realistic water effects.
-Sand, rocks, and other seaside elements to create a realistic environment.
+  - Custom water shader created using Unity's Shader Graph for dynamic and stylized water effects.
+  - Sand, rocks, and other seaside elements to create a realistic environment.
 4. House Models
-House models with variable textures and materials are used to add variety.
-Models are created in Blender using geometry nodes and imported as .fbx files into Unity.
+  - House models with variable textures and materials are used to add variety.
+  - Models are created in Blender using geometry nodes and imported as .fbx files into Unity.
 5. Animations
-Character animations for walking, sitting, interacting with doors, and other actions are imported and integrated with Unity's Animator.
-Installation & Setup
+  - Character animations for walking, sitting, interacting with doors, and other actions are imported and integrated with Unity's Animator.
+
+# Installation & Setup
 Requirements
 Unity: This project is built using Unity 2021.3 or higher.
 Blender (Optional): Models are generated using Blender Geometry Nodes, although Blender is not required to run the project.
