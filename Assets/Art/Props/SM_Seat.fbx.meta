@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: e6b393aef0d312d4fa5da0ee804f8dbe
+guid: 5910421fa40a4384c9e364e3e96519be
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MT_Boat
-    second: {fileID: 2100000, guid: 7bca3e27064e7cf4dafc4ea5cab71191, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
