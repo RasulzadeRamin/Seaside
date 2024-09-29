@@ -37,7 +37,7 @@ public class SitAction : MonoBehaviour
         if (other.CompareTag("SitArea"))
         {
             isInSittingPlace = true;
-            uiText.text = "";
+            uiText.text = "You Can Sit Here";
         }
     }
 
