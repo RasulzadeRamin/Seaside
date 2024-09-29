@@ -156,7 +156,7 @@ namespace StarterAssets
         {
             _hasAnimator = TryGetComponent(out _animator);
 
-            JumpAndGravity();
+           // JumpAndGravity();
             GroundedCheck();
             Move();
         }
@@ -279,7 +279,7 @@ namespace StarterAssets
             }
         }
 
-        private void JumpAndGravity()
+       /* private void JumpAndGravity()
         {
             if (Grounded)
             {
@@ -346,7 +346,7 @@ namespace StarterAssets
             {
                 _verticalVelocity += Gravity * Time.deltaTime;
             }
-        }
+        }*/
 
         private static float ClampAngle(float lfAngle, float lfMin, float lfMax)
         {
