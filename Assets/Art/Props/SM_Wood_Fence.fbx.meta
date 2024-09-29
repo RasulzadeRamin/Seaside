@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e6b393aef0d312d4fa5da0ee804f8dbe
+guid: d3acebf928ae21f438eb5d7a946992ad
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: MT_Boat
-    second: {fileID: 2100000, guid: 7bca3e27064e7cf4dafc4ea5cab71191, type: 2}
+      name: FenceMat
+    second: {fileID: 2100000, guid: 5a780e779643e4342a7ebe9478f5a3fd, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
