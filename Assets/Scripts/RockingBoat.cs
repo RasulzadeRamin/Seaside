@@ -7,7 +7,7 @@ public class RockingBoat : MonoBehaviour
 
     private float initialRotationX; // To store the initial X rotation of the boat
 
-    void Start()
+    void Awake()
     {
         // Store the initial local X rotation of the boat
         initialRotationX = transform.localEulerAngles.x;
