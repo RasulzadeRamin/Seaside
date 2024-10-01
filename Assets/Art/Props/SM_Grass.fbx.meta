@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3fd2daa4217f47c4493725ae3615e8de
+guid: 93dcd78a8aa240940afc28af13807fdc
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: MT_Bench
-    second: {fileID: 2100000, guid: 19138d82e93e7004983a3e5f1c508718, type: 2}
+      name: GrassMat
+    second: {fileID: 2100000, guid: 942662d67a2124144b407503e5b62777, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

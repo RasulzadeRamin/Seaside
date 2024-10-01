@@ -9,12 +9,16 @@ public class DoorOpen : MonoBehaviour
     private bool isDoorOpen = false; // Track if the door is open or not
     private PlayerInput playerInput; // Reference to the PlayerInput component
     private InputAction interactAction; // Reference to the Interact action
+    public AudioClip openDoorSound; // Sound to play when the door opens
+    public AudioClip closeDoorSound; // Sound to play when the door closes
+    private AudioSource audioSource; // Reference to the AudioSource component
 
     void Awake()
     {
         // Initialize PlayerInput and Interact action
         playerInput = GetComponent<PlayerInput>();
         interactAction = playerInput.actions["Interact"];
+        audioSource = gameObject.AddComponent<AudioSource>();
     }
 
     void OnEnable()
@@ -68,11 +72,19 @@ public class DoorOpen : MonoBehaviour
     {
         isDoorOpen = true;
         doorAnimator.SetBool("DoorOpen", true); // Set the animator to open the door
+        if (openDoorSound != null)
+        {
+            audioSource.PlayOneShot(openDoorSound);
+        }
     }
 
     private void CloseDoor()
     {
         isDoorOpen = false;
         doorAnimator.SetBool("DoorOpen", false); // Set the animator to close the door
+        if (closeDoorSound != null)
+        {
+            audioSource.PlayOneShot(closeDoorSound);
+        }
     }
 }
