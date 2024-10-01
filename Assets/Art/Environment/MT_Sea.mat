@@ -71,11 +71,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalText_reA:
-        m_Texture: {fileID: 2800000, guid: 72292bad8f6b2a745b53ff354d0e6221, type: 3}
+        m_Texture: {fileID: 2800000, guid: c09976edb5d9fcd4495cc6292c053d21, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalText_reB:
-        m_Texture: {fileID: 2800000, guid: d3241ed7d0c7fdd48ae72709b28d25dc, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8ed40ca606f802e4d9554791f63ce3df, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -88,6 +88,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveNormal:
+        m_Texture: {fileID: 2800000, guid: 98a784db3ca748542b3405af3a654cb1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -114,7 +118,7 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
-    - _DepthDistance: 2.36
+    - _DepthDistance: 2.74
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -124,7 +128,7 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
-    - _NormalIntensity: 0.687
+    - _NormalIntensity: 0.652
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _PeaksChaos: 0.7
@@ -135,27 +139,34 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _RefractionStrength: 0.082
+    - _RefractionStrength: -1
     - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
+    - _WaterSpeedX: 0
+    - _WaterSpeedY: 0.01
     - _WaveChaos: 1
+    - _WaveDirection: 90
+    - _WaveIntensity: 0
     - _WaveSize: 24.7
-    - _WaveSpeedX: 0.007
-    - _WaveSpeedY: 0.001
+    - _WaveSpeedX: 0.01
+    - _WaveSpeedY: 0
+    - _Waves: 1
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DeepColor: {r: 0, g: 0.62515205, b: 1, a: 0.60784316}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
-    - _MainColor: {r: 0.7122642, g: 1, b: 0.97817415, a: 1}
-    - _NormalSize: {r: 0.5, g: 0.1, b: 0, a: 0}
+    - _FoamColor: {r: 1, g: 0, b: 0, a: 1}
+    - _MainColor: {r: 0.5566037, g: 0.90968454, b: 1, a: 0.41568628}
+    - _NormalSize: {r: 1, g: 1, b: 0, a: 0}
     - _PeaksColor: {r: 0.95, g: 0.95, b: 0.95, a: 0.99215686}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _WaveSize: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
