@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6338076412383394015}
   - component: {fileID: 1186502030134914083}
   m_Layer: 0
-  m_Name: PF_VFX_SimpleDust
+  m_Name: PF_VFX_Simple_Dust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

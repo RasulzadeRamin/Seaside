@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6e8c3a6ea1505eb44a9b3fa54e22db06, type: 2}
+  - {fileID: 2100000, guid: 2b114149311b3e240be136346fec53be, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -99,7 +99,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &551102663990000953
 Transform:
@@ -109,7 +109,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1840151557920108302}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.9, y: 0, z: -10.97}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -238,6 +238,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PF_VFX_Falling_Leaves
+      objectReference: {fileID: 0}
+    - target: {fileID: 6973736410493523325, guid: 52f80f26847061b4882f4de4e0cc0565,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[0].m_Value
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6973736410493523325, guid: 52f80f26847061b4882f4de4e0cc0565,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[3].m_Value
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 7428504924612159096, guid: 52f80f26847061b4882f4de4e0cc0565,
         type: 3}
