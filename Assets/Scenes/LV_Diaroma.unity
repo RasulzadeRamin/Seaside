@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 646830285}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.08405905, g: 0.06980042, b: 0.07936375, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -93,7 +93,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 5ebb57c7c704cb04cbcdddaa77bda873,
+    type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: a24cc143814a47b4e93c2d7b8689b3ea,
     type: 2}
 --- !u!196 &4
@@ -2577,6 +2578,11 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 8c6c345704986ad4ab41b7eb6137ec43, type: 2}
+    - target: {fileID: -3634245526126483058, guid: 339e33112c4f45543af7ba7a1b1a732b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: -756530215604166794, guid: 339e33112c4f45543af7ba7a1b1a732b,
         type: 3}
       propertyPath: m_IsActive
@@ -4414,7 +4420,7 @@ MonoBehaviour:
   lowestSubdivLevelOverride: 0
   highestSubdivLevelOverride: -1
   overridesSubdivLevels: 0
-  mightNeedRebaking: 1
+  mightNeedRebaking: 0
   cachedTransform:
     e00: 1
     e01: 0
@@ -9289,7 +9295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a83d2f7ae04ab6f4f99b0d85377be998, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bakingSet: {fileID: 0}
+  bakingSet: {fileID: 11400000, guid: baf22da00436c1549a69df11d2f66f95, type: 2}
   sceneGUID: d92be1dbdd0d7ec4f865bd71f3292932
   obsoleteAsset: {fileID: 0}
   obsoleteCellSharedDataAsset: {fileID: 0}
