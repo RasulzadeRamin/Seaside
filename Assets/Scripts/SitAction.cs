@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.UI; // For UI components
+using UnityEngine.UI;
 using TMPro;
 public class SitAction : MonoBehaviour
 {
