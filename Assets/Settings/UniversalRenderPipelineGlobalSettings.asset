@@ -44,6 +44,7 @@ MonoBehaviour:
       m_Values:
       - {fileID: 11400000, guid: baf22da00436c1549a69df11d2f66f95, type: 2}
     bakingSets:
+    - {fileID: 11400000, guid: 4b6788d21b9cf314790e5238d5433dd9, type: 2}
     - {fileID: 11400000, guid: baf22da00436c1549a69df11d2f66f95, type: 2}
     sceneBounds:
       m_Keys:
